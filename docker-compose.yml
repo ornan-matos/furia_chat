@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    container_name: furia-backend
+    ports:
+      - "8000:8000"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: furia-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_BACKEND_URL=ws://backend:8000/ws
+    depends_on:
+      - backend
