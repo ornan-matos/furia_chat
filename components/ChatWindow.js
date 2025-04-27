@@ -1,4 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
+import NewsFeed from './NewsFeed';
+import NextAndLastMatches from './NextAndLastMatches';
 
 export default function ChatWindow() {
   const [messages, setMessages] = useState([
@@ -36,18 +39,30 @@ export default function ChatWindow() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-furia-black">
-      {/* Área de próximos jogos/notícias rápidas */}
-      <div className="w-full max-w-lg bg-furia-yellow text-furia-black p-4 rounded-mac mb-4 shadow-lg animate-fadeIn">
-        <strong>Próximo jogo:</strong> FURIA vs G2 — 28/04 18h | <span className="italic">ESL Pro League</span>
+
+      {/* Logo da FURIA */}
+      <div className="w-full max-w-lg flex justify-center mb-2">
+        <Image
+          src="/logo-furia.png"
+          alt="Logo FURIA"
+          width={120}
+          height={120}
+          priority
+          className="object-contain"
+        />
       </div>
-      {/* Janela de Chat */}
+
+      {/* Próxima e Última partida lado a lado */}
+      <NextAndLastMatches />
+
+      {/* Caixa do Chat */}
       <div className="flex flex-col w-full max-w-lg bg-furia-black border border-furia-yellow rounded-mac shadow-2xl animate-slideUp">
         <div ref={chatRef} className="flex-1 h-96 overflow-y-auto p-4">
           {messages.map((msg, idx) => (
             <div key={idx} className={`my-2 flex ${msg.sender === "user" ? "justify-end" : "justify-start"}`}>
               <div className={`max-w-xs px-4 py-2 rounded-mac ${msg.sender === "user"
-                ? "bg-furia-yellow text-furia-black self-end" 
-                : "bg-gray-800 text-furia-white self-start"} 
+                ? "bg-furia-yellow text-furia-black self-end"
+                : "bg-gray-800 text-furia-white self-start"}
                 shadow transition-all duration-200`}>
                 <span className="font-bold">{msg.sender === "user" ? "Você" : "FURIA Bot"}: </span>
                 {msg.text}
@@ -82,6 +97,10 @@ export default function ChatWindow() {
           </button>
         </div>
       </div>
+
+      {/* Feed de Notícias (dinâmico via HLTV API) */}
+      <NewsFeed />
+
     </div>
   );
 }
