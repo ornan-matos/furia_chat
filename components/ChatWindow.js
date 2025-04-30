@@ -73,7 +73,7 @@ export default function ChatWindow() {
             <div className="my-2 flex justify-start">
               <div className="max-w-xs px-4 py-2 rounded-mac bg-gray-800 text-furia-white self-start shadow">
                 <span className="font-bold">FURIA Bot: </span>
-                Digitando...
+                Pensando...
               </div>
             </div>
           )}
