@@ -1,4 +1,4 @@
-# 🐆 FURIA Chatbot – Web Chat Interativo para Fãs de CS:GO
+# FURIA Chatbot – Web Chat Interativo para Fãs de CS:GO
 
 Este projeto é um **chatbot interativo web** criado com **Next.js** para fãs da equipe de CS:GO da **FURIA**.  
 Ele permite que fãs acompanhem notícias, jogos, curiosidades e interajam com o bot treinado via **API Grok-3-mini (X.AI)**.
