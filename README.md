@@ -17,12 +17,9 @@ Ele permite que fãs acompanhem notícias, jogos, curiosidades e interajam com o
   - ✅ **Próxima partida da FURIA Academy**.
   - 🕗 Atualização automática com horário e adversário.
 
-### 📰 Feed de Notícias
-- Exibe o **feed oficial do X (antigo Twitter)** da FURIA:
-  - Visualização direta via embed.
-  - Logo do X e estilo personalizado (fundo cinza claro e borda dourada).
-  - Botão para seguir a equipe.
-  - Em breve: link para Instagram oficial.
+### 👥 Social
+  - Logo do X e estilo personalizado para seguir a equipe.
+  - Link para Instagram oficial.
 
 ### 🎨 Interface Moderna
 - Layout responsivo com **Tailwind CSS**.
