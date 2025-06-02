@@ -120,19 +120,15 @@ furia-chatbot/
 
 ---
 
-### 🤝 Contribuindo
+## 🤝 Contribuições
 
-Contribuições são bem-vindas!  
-Sugestões de melhoria, novos recursos e correções de bugs são muito apreciadas.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias ou sugestões.
 
 ---
 
-### 📄 Licença
+## 📄 Licença
 
-- Este projeto está sob a licença **MIT**.
-- Este projeto é apenas para fins educacionais e demonstração técnica. Não está afiliado oficialmente à equipe FURIA.
----
+Copyright (©) 2025 **Ornan S. C. Matos**. Todos os direitos reservados.
 
-##### ✍️ Autor
-
-Desenvolvido por Ornan Matos, 2025.
+Este software é propriedade de **Ornan S. C. Matos** e é protegido pelas leis de direitos autorais.
+Nenhuma parte deste software pode ser modificada, distribuída ou sublicenciada sem a autorização prévia por escrito do proprietário dos direitos autorais. Para solicitar permissão, entre em contato com **ornanmatos@outlook.com**.
