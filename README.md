@@ -3,25 +3,25 @@
 Este projeto é um **chatbot interativo web** criado com **Next.js** para fãs da equipe de CS:GO da **FURIA**.  
 Ele permite que fãs acompanhem notícias, jogos, curiosidades e interajam com o bot treinado via **API Grok-3-mini (X.AI)**.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-### 💬 Chatbot Interativo
+### Chatbot Interativo
 - Interface inspirada no WhatsApp/Discord.
 - Estilo visual com **cores e ícones da FURIA**.
 - Mensagens com animação fluida.
 - Campo de digitação + botão de envio.
 - Integração com **API Grok (X.AI)** para respostas automáticas.
 
-### 🕹️ Informações de Jogos
+### Informações de Jogos
 - Consome a API do [HLTV](https://hltv-api.vercel.app/) para exibir:
-  - ✅ **Próxima partida da FURIA Academy**.
-  - 🕗 Atualização automática com horário e adversário.
+  -  **Próxima partida da FURIA Academy**.
+  -  Atualização automática com horário e adversário.
 
-### 👥 Social
+### Social
   - Logo do X e estilo personalizado para seguir a equipe.
   - Link para Instagram oficial.
 
-### 🎨 Interface Moderna
+### Interface Moderna
 - Layout responsivo com **Tailwind CSS**.
 - Estilo “macOS-like” com botões arredondados e sombras suaves.
 - Logo da FURIA no topo central da página.
@@ -29,7 +29,7 @@ Ele permite que fãs acompanhem notícias, jogos, curiosidades e interajam com o
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Ferramenta      | Finalidade                           |
 |------------------|---------------------------------------|
@@ -41,7 +41,7 @@ Ele permite que fãs acompanhem notícias, jogos, curiosidades e interajam com o
 
 ---
 
-## 🧪 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Node.js v18+ instalado
@@ -69,14 +69,14 @@ npm run dev
 Claro! Aqui está o trecho ajustado para o formato correto em **Markdown**:
 
 
-### 🌐 Acessar
+### Acessar
 
 Abra o navegador em:  
 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-### 📦 Deploy na Vercel
+### Deploy na Vercel
 
 Este projeto pode ser implantado automaticamente via [Vercel](https://vercel.com/):
 
@@ -87,7 +87,7 @@ Este projeto pode ser implantado automaticamente via [Vercel](https://vercel.com
 
 ---
 
-### 📁 Estrutura de Pastas
+### Estrutura de Pastas
 
 ```
 
@@ -120,13 +120,13 @@ furia-chatbot/
 
 ---
 
-## 🤝 Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias ou sugestões.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Copyright (©) 2025 **Ornan S. C. Matos**. Todos os direitos reservados.
 
